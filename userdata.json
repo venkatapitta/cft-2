@@ -356,7 +356,6 @@
         "Fn::Join" : [ "", [
             "#!/bin/bash\n",
 			"yum install -y httpd\n",
-			"service enable httpd\n",
 			"service start httpd\n"
 			] ]
     }
