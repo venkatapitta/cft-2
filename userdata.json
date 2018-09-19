@@ -357,8 +357,7 @@
             "#!/bin/bash\n",
 			"sudo yum install -y httpd\n",
 			"sudo systemctl enable httpd\n",
-			"sudo systemctl start httpd\n",
-		"echo hi"
+			"sudo systemctl start httpd\n"
 			] ]
     }
 }
